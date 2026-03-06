@@ -1,0 +1,12 @@
+<groupId>com.yourcompany</groupId>
+<artifactId>your-artifact</artifactId>
+<version>1.0.0</version>
+<packaging>jar</packaging>
+
+<distributionManagement>
+  <repository>
+    <id>github</id>
+    <name>GitHub Packages</name>
+    <url>https://maven.pkg.github.com/alan3002/Declarative-pipeline-jenkins</url>
+  </repository>
+</distributionManagement>
