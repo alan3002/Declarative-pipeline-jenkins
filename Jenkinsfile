@@ -4,6 +4,9 @@ pipeline {
     tools {
         maven 'maven-1'
     }
+
+    stages {
+
         stage('Build') {
             steps {
                 sh 'mvn clean compile'
@@ -27,5 +30,6 @@ pipeline {
                 archiveArtifacts artifacts: 'target/*.jar'
             }
         }
+
     }
 }
